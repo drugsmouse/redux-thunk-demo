@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should fully render component 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to react
+    </h1>
+    invalid
+  </header>
+  <div>
+    Some component throw 'asdf'  
+  </div>
+  <p
+    className="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+</div>
+`;
+
+exports[`should render shallow 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to react
+    </h1>
+    valid
+  </header>
+  <Some />
+  <p
+    className="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+</div>
+`;
+
+exports[`should test nested object 1`] = `
+Object {
+  "name": "Jack",
+  "position": Object {
+    "salary": "10 00000 $",
+    "title": "D3",
+  },
+  "years": "5",
+}
+`;
